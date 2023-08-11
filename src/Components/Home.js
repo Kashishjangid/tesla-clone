@@ -105,14 +105,14 @@ const Home = () => {
   )
 }
 
-const main = styled.div`
-    width: auto;
-    height: auto;
-    overflow: auto;
-    scroll-behavior: smooth;
-    scroll-snap-align: initial;
-    scroll-snap-type: mandatory;
-`;
+// const main = styled.div`
+//     width: auto;
+//     height: auto;
+//     overflow: auto;
+//     scroll-behavior: smooth;
+//     scroll-snap-align: initial;
+//     scroll-snap-type: mandatory;
+// `;
 
 
 export default Home

@@ -29,7 +29,7 @@ const Models = ({title,text1,text2,leftButton,rightButton,link,backgroundImg, if
             
             {
                 iflinkExists &&
-                    <a href="#">{link}</a>
+                    <a href="https://github.com/">{link}</a>
             }
             
           </TextItems>
