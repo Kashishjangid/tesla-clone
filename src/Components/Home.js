@@ -1,6 +1,6 @@
 import React from 'react'
 import Models from './Home/Models'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 
 import bgImg1 from './Images/tesla-car-1.jpg'
 import bgImg2 from './Images/tesla-car-2.jpg' 
