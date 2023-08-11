@@ -25,16 +25,16 @@ const Navbar = () => {
         </NavBrand>
         <NavMenu>
           <ul className="display-none">
-            <li><a href="">Vehicles</a> </li>
-            <li><a href="">Energy</a> </li>
-            <li><a href="">Charging</a> </li>
-            <li><a href="">Discover</a> </li>
-            <li><a href="">Shop</a>  </li>
+            <li><a href="#">Vehicles</a> </li>
+            <li><a href="#">Energy</a> </li>
+            <li><a href="#">Charging</a> </li>
+            <li><a href="#">Discover</a> </li>
+            <li><a href="#">Shop</a>  </li>
           </ul>
           <ul className="right">
             <li className="display-none"><a href="#">English</a></li>
-            <li className="display-none"><a href="">Support</a> </li>
-            <li className="display-none"><a href="">LogIn</a> </li>
+            <li className="display-none"><a href="#">Support</a> </li>
+            <li className="display-none"><a href="#">LogIn</a> </li>
             <li onClick={MenuButton} className="menu-active" >Menu </li>
           </ul>
         </NavMenu>

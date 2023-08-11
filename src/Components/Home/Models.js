@@ -7,7 +7,7 @@ import styled from "styled-components";
 const Models = ({title,text1,text2,leftButton,rightButton,link,backgroundImg, ifrightButtonExists, iflinkExists, iftextExists}) => {
   return (
     <>
-      <Background style={{background:`url(${backgroundImg})`,backgroundSize:'cover', backgroundPosition:'center', backgroundRepeat:'no-repeat', backgroundPosition:'center'}}>
+      <Background style={{background:`url(${backgroundImg})`,backgroundSize:'cover', backgroundPosition:'center', backgroundRepeat:'no-repeat', }}>
         {/* <Navbar/> */}
         <Container>
 
@@ -29,7 +29,7 @@ const Models = ({title,text1,text2,leftButton,rightButton,link,backgroundImg, if
             
             {
                 iflinkExists &&
-                    <a href="">{link}</a>
+                    <a href="#">{link}</a>
             }
             
           </TextItems>
@@ -81,7 +81,7 @@ const Container = styled.div`
 // const Bounce = styled.div``;
 const TextItems = styled.div`
   line-height: 0.5;
-  margin-top: 15vh;
+  margin-top: 10vh;
   h1 {
     font-size: 3rem;
     font-weight: 500;

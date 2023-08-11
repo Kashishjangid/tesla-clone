@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
         
-        <main>
+        {/* <main> */}
             <Models
                 title= "Model 3"
                 text1="Starting at $32,740"
@@ -100,7 +100,7 @@ const Home = () => {
             />
             
             
-        </main>
+        {/* </main> */}
     </>
   )
 }
